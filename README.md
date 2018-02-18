@@ -12,14 +12,17 @@ What would you change in the exercise and/or process : Good as is.
 
 
 Technology Stack: Java 1.8, Spring Boot with JAXRS-Jersey and Mongo DB
+
 Build Tool: Maven
 
 Steps to Run the Application
+
 1- The Application bootstraps and connects to Mongo DB on host and Port localhost:27017 by default, It can be changed using application.properties.
 
 2- Run "mvn spring-boot:run"
 
 3- The System creates Sample Users for Test Purposes
+
 
 
 
