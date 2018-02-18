@@ -16,8 +16,11 @@ Build Tool: Maven
 
 Steps to Run the Application
 1- The Application bootstraps and connects to Mongo DB on host and Port localhost:27017 by default, It can be changed using application.properties.
+
 2- Run "mvn spring-boot:run"
+
 3- The System creates Sample Users for Test Purposes
+
 
 
 
@@ -26,8 +29,11 @@ Details for Testing the API's below:
 1-Creating Project
 
 URL: http://localhost.corp.apple.com:8080/api/users/<user-Id>/projects
+
 Method : HTTP POST
+
 Sample Request
+
 {
   "name": "Test Project",
   "requirements": "Test Project Requirements",
@@ -39,9 +45,13 @@ Sample Request
 
 
 2-Get Project Based on Project ID
+
 URL: http://localhost.corp.apple.com:8080/api/projects/<project-Id>
+
 Method: HTTP GET
+
 Sample Response
+
 {
     "createdTimeStamp": "02/18/2018 21:20:51 UTC",
     "lastModifiedTimeStamp": "02/18/2018 21:20:51 UTC",
@@ -67,20 +77,27 @@ Sample Response
 
 
 3-Bid for a Project
-URL: http://localhost.corp.apple.com:8080/api/users/<user-Id>/projects/<project-id>/bids
-Method : HTTP POST
-Sample Request
-{
 
+URL: http://localhost.corp.apple.com:8080/api/users/<user-Id>/projects/<project-id>/bids
+
+Method : HTTP POST
+
+Sample Request
+
+{
 	"bidPrice":95.50,
 	"summary":"Project Plan Details"
 }
 
 
 4-Get All Open Projects
+
 URL: http://localhost.corp.apple.com:8080/api/projects?offset=0&limit=1
+
 Method : HTTP GET
+
 Sample Response
+
 {
     "projects": [
         {
