@@ -1,9 +1,13 @@
 Implementation of Sample Rest Based API's of MarketPlace for Self Employed.
 
 Time taken for Building the Application (Excluding Dev Setup): 4.5 hours
+
 Exercise Difficulty: Moderate
+
 How did you feel about the exercise itself : 9
+
 How do you feel about coding an exercise as a step in the interview process: 9
+
 What would you change in the exercise and/or process : Good as is.
 
 
