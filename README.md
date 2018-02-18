@@ -35,7 +35,7 @@ Sample Request
   "bidOpenDate": "02/18/2018 13:21:00 PST",
   "bidCloseDate": "02/25/2018 11:40:00 PST",
   "expectedDelivery": "03/20/2018 11:40:00 PST"
-}
+ }
 
 
 2-Get Project Based on Project ID
