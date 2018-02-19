@@ -31,7 +31,7 @@ Details for Testing the API's below:
 
 1-Creating Project
 
-URL: http://localhost.corp.apple.com:8080/api/users/{user-id}/projects
+URL: http://localhost:8080/api/users/{user-id}/projects
 
 Method : HTTP POST
 
@@ -49,7 +49,7 @@ Sample Request
 
 2-Get Project Based on Project ID
 
-URL: http://localhost.corp.apple.com:8080/api/projects/{project-Id}
+URL: http://localhost:8080/api/projects/{project-Id}
 
 Method: HTTP GET
 
@@ -81,7 +81,7 @@ Sample Response
 
 3-Bid for a Project
 
-URL: http://localhost.corp.apple.com:8080/api/users/{user-Id}/projects/{project-id}/bids
+URL: http://localhost:8080/api/users/{user-Id}/projects/{project-id}/bids
 
 Method : HTTP POST
 
@@ -95,7 +95,7 @@ Sample Request
 
 4-Get All Open Projects
 
-URL: http://localhost.corp.apple.com:8080/api/projects?offset=0&limit=1
+URL: http://localhost:8080/api/projects?offset=0&limit=1
 
 Method : HTTP GET
 
